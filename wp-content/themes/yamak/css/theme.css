@@ -1,0 +1,53 @@
+:root {
+    --primary: #0352A8 !important;
+    --secondary: #03DCA8!important;
+    --primary-ligth: #ffffff !important;
+    --secondary-ligth: #575757 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#site-content,
+body {
+    background-image: url("../img/bg-body.svg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.secondary-color {
+    color: var(--secondary) !important;
+}
+
+.primary-color {
+    color: var(--primary) !important;
+}
+
+.secondary-ligth-color {
+    color: var(--secondary-ligth) !important;
+}
+
+.contact-us-section .wpcf7-submit {
+    background-color: var(--primary) !important;
+    color: var(--primary-ligth) !important;
+}
+
+.btn-outline-info-custmize {
+    color: var(--primary) !important;
+    background-color: var(--primary-ligth) !important;
+    border: 1px solid var(--primary) !important;
+    border-radius: 5px;
+}
+
+.btn-outline-info-custmize:hover {
+    color: var(--primary-ligth) !important;
+    background-color: var(--primary) !important;
+}
+
+.email-info a:hover,
+.social-media a:hover,
+.location a:hover {
+    color: var(--secondary) !important;
+}

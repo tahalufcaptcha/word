@@ -1,0 +1,112 @@
+@media (min-width: 767px) {
+    .modalDialog-content {
+        max-width: 600px;
+    }
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+    /* .content-container,
+    .entry-content,
+    .all-content {
+        height: calc(100vh - 120px);
+        overflow-y: auto;
+        overflow-x: hidden;
+    } */
+}
+
+@media (max-width: 766px) {
+    .custom-btn {
+        bottom: 0% !important;
+        left: -5px !important;
+    }
+    .icon-btn {
+        padding: 10px !important;
+    }
+    .link-of-btn {
+        font-size: 13px !important;
+    }
+    .all-values {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .content-tab {
+        flex-direction: column !important;
+    }
+    .services-description {
+        margin-left: 5px;
+    }
+    .bottom-widgets {
+        display: none !important;
+    }
+    .contact-us-section .row {
+        flex-direction: column-reverse;
+    }
+    .all-services ul#experienceTab {
+        display: flex;
+        flex-direction: row !important;
+    }
+    .all-services ul#experienceTab li.nav-item {
+        flex: 50%;
+    }
+    #experienceTab.nav-pills .nav-link {
+        background-color: #f6f3f3;
+        border: 1px solid #ddd;
+        margin: 4px;
+        border-radius: 0;
+    }
+}
+
+@media(min-width:1025px) {
+    #experienceTab.nav-pills .nav-link.active:before {
+        width: 8%;
+    }
+    .header-inner .toggle {
+        height: 4.4rem;
+        padding: 0 3rem;
+        position: relative;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        width: auto;
+    }
+    .mobile-search-toggle,
+    .mobile-nav-toggle {
+        display: none !important;
+    }
+    .primary-menu-wrapper {
+        display: block !important;
+        width: 100%;
+    }
+    .container-fluid {
+        padding-right: 5% !important;
+        padding-left: 5% !important;
+    }
+}
+
+@media (max-width: 1025px) {
+    .value-card {
+        max-width: 240px;
+    }
+    .btn-outline-info-custmize {
+        display: none !important;
+    }
+    .header-inner.section-inner {
+        grid-template-columns: 60% 15% 25% !important;
+    }
+    .img-fluid {
+        max-width: 80% !important;
+        margin: 0 auto;
+        display: table;
+    }
+    .value-card .content-img img {
+        max-height: 150px !important;
+    }
+}
+
+@media(min-width:1900px) {
+    #experienceTab.nav-pills .nav-link.active:before {
+        width: 5%;
+    }
+}
