@@ -1,9 +1,21 @@
 <div class="bottom-widgets container-fluid">
 	<div class="d-flex justify-content-between m-0">
-<p class="m-0 primary-color footer-font-size"><?php echo ICL_LANGUAGE_CODE == 'en' ? "© 2023 All Rights Reserved. NPCM" : "© 2023 جميع الحقوق محفوظة. NPCM"; ?></p>
-<p class="m-0 primary-color footer-font-size"><?php echo ICL_LANGUAGE_CODE == 'en' ? "Devolved By Tahaluf" : "تطوير تحالف"; ?></p>
+		<p class="m-0 primary-color footer-font-size"><?php echo ICL_LANGUAGE_CODE == 'en' ? "© 2023 All Rights Reserved. NPCM" : "© 2023 جميع الحقوق محفوظة. NPCM"; ?></p>
+		<p class="m-0 primary-color footer-font-size"><?php echo ICL_LANGUAGE_CODE == 'en' ? "Power by ministry of interior" : "بدعم من وزارة الداخلية "; ?></p>
+	</div>
 </div>
+
+<div class="side-widgets">
+
+	<div class="announcement-widget">
+
+		<img src="<?php echo get_stylesheet_directory_uri() ?>/img/Megaphone-icon.png" class="img-fluid">
+
+	</div>
+
 </div>
+
+
 <script src="<?php echo get_stylesheet_directory_uri() ?>/assets/aos/aos.js"></script>
 <script>
 	AOS.init({
